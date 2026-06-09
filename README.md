@@ -13,6 +13,7 @@
 |------|--------|-----------------|
 | Nelson de Araújo Lessa Neto | @Nettzy | implementou do zero MaxHeap, MinHeap, AVL Tree e HashTable ,implementou o motor de matching, implementou a leitura/escrita via CLI, documentou a análise de complexidade documentou o projeto completo |
 
+
 | Nome | GitHub | Responsabilidade |
 |------|--------|-----------------|
 | Edurdo Clementino de Lima Almeida | @Redrolke | Script gerador de dados, arquivos de entrada e script de execução |
