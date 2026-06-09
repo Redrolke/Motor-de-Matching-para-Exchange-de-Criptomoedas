@@ -1,0 +1,190 @@
+{
+  "metadata": {
+    "level": "basico",
+    "description": "Validação lógica central"
+  },
+  "initial_balances": {
+    "ACC_001": {
+      "BTC": 5.81327049,
+      "USD": 677635.35
+    },
+    "ACC_002": {
+      "BTC": 8.35087587,
+      "USD": 850910.16
+    },
+    "ACC_003": {
+      "BTC": 8.41773833,
+      "USD": 535701.25
+    },
+    "ACC_004": {
+      "BTC": 8.17489144,
+      "USD": 767069.94
+    },
+    "ACC_005": {
+      "BTC": 6.22405463,
+      "USD": 731130.11
+    }
+  },
+  "orders": [
+    {
+      "order_id": "fe55b072-9a5e-4c6c-b7c3-34b5fb98487b",
+      "account_id": "ACC_001",
+      "side": "sell",
+      "price": 49500,
+      "quantity": 0.02557351,
+      "timestamp": 1780879244005
+    },
+    {
+      "order_id": "7e47bd20-9b56-4b3c-b53d-0b5dda4320e3",
+      "account_id": "ACC_005",
+      "side": "buy",
+      "price": 50300,
+      "quantity": 0.36756858,
+      "timestamp": 1780879244018
+    },
+    {
+      "order_id": "3bc270e1-83e6-42a5-abb0-63c61b0babc9",
+      "account_id": "ACC_005",
+      "side": "sell",
+      "price": 49800,
+      "quantity": 0.10743045,
+      "timestamp": 1780879244008
+    },
+    {
+      "order_id": "e86442f3-3764-475c-b182-ec11d4a98fb8",
+      "account_id": "ACC_004",
+      "side": "buy",
+      "price": 50400,
+      "quantity": 0.07116482,
+      "timestamp": 1780879244019
+    },
+    {
+      "order_id": "1ff30d68-9eb4-44ec-bf7e-ad5bb4591d2f",
+      "account_id": "ACC_005",
+      "side": "sell",
+      "price": 49700,
+      "quantity": 0.30498918,
+      "timestamp": 1780879244007
+    },
+    {
+      "order_id": "b51c9758-d7e8-40cd-96c4-04e778c22527",
+      "account_id": "ACC_003",
+      "side": "buy",
+      "price": 49700,
+      "quantity": 0.3520883,
+      "timestamp": 1780879244012
+    },
+    {
+      "order_id": "34b95c35-1dfd-498d-8951-4b4f12b5c0f9",
+      "account_id": "ACC_004",
+      "side": "buy",
+      "price": 50000,
+      "quantity": 0.06008304,
+      "timestamp": 1780879244015
+    },
+    {
+      "order_id": "79f98d2a-b0d2-4c0e-b2fa-4819e402913a",
+      "account_id": "ACC_003",
+      "side": "buy",
+      "price": 49900,
+      "quantity": 0.47903441,
+      "timestamp": 1780879244014
+    },
+    {
+      "order_id": "67249971-3469-492c-a606-e6c4b2366a9a",
+      "account_id": "ACC_002",
+      "side": "buy",
+      "price": 49800,
+      "quantity": 0.14615696,
+      "timestamp": 1780879244013
+    },
+    {
+      "order_id": "bf24079f-cb36-4e8a-950b-3ef2ec6d2e73",
+      "account_id": "ACC_004",
+      "side": "sell",
+      "price": 49400,
+      "quantity": 0.05260003,
+      "timestamp": 1780879244004
+    },
+    {
+      "order_id": "2ddcfa21-aebd-4c95-bee3-88cffc6fa35c",
+      "account_id": "ACC_005",
+      "side": "sell",
+      "price": 49300,
+      "quantity": 0.34158275,
+      "timestamp": 1780879244003
+    },
+    {
+      "order_id": "0f16c466-5427-45b0-ac2d-bfedf43eb383",
+      "account_id": "ACC_001",
+      "side": "buy",
+      "price": 49500,
+      "quantity": 0.29874019,
+      "timestamp": 1780879244010
+    },
+    {
+      "order_id": "b0ae9a2e-fe02-4eaa-8d85-52dd796f09b2",
+      "account_id": "ACC_001",
+      "side": "sell",
+      "price": 49000,
+      "quantity": 0.32331913,
+      "timestamp": 1780879244000
+    },
+    {
+      "order_id": "5cf71166-f934-43ba-babb-802df0f85ec7",
+      "account_id": "ACC_002",
+      "side": "sell",
+      "price": 49100,
+      "quantity": 0.37335974,
+      "timestamp": 1780879244001
+    },
+    {
+      "order_id": "db29efcf-703d-45ae-9ab5-fabfe012a351",
+      "account_id": "ACC_003",
+      "side": "buy",
+      "price": 50100,
+      "quantity": 0.05739102,
+      "timestamp": 1780879244016
+    },
+    {
+      "order_id": "8ac8d78f-4601-4787-84cf-24348be04c8e",
+      "account_id": "ACC_005",
+      "side": "sell",
+      "price": 49600,
+      "quantity": 0.11713261,
+      "timestamp": 1780879244006
+    },
+    {
+      "order_id": "99ad3921-1e79-428f-9596-c9573cdf9143",
+      "account_id": "ACC_002",
+      "side": "buy",
+      "price": 49600,
+      "quantity": 0.38181561,
+      "timestamp": 1780879244011
+    },
+    {
+      "order_id": "ea6c9f2b-607b-411c-8e8e-5d98e6d114f2",
+      "account_id": "ACC_004",
+      "side": "sell",
+      "price": 49900,
+      "quantity": 0.21556471,
+      "timestamp": 1780879244009
+    },
+    {
+      "order_id": "46ef5724-6726-4c19-8a39-4d8a95bf6d07",
+      "account_id": "ACC_001",
+      "side": "buy",
+      "price": 50200,
+      "quantity": 0.30582576,
+      "timestamp": 1780879244017
+    },
+    {
+      "order_id": "61fab74f-1217-450d-8429-e1c0a3cb2e72",
+      "account_id": "ACC_001",
+      "side": "sell",
+      "price": 49200,
+      "quantity": 0.11937326,
+      "timestamp": 1780879244002
+    }
+  ]
+}
