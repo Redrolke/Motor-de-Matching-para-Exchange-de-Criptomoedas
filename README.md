@@ -1,9 +1,4 @@
-# 🔁 Motor de Matching para Exchange de Criptomoedas
-
-**Projeto 7 — Estruturas de Dados e Algoritmos**
-
-> Motor de Order Book para cruzamento instantâneo de ordens de compra e venda de BTC/USD.
-> Todas as estruturas de dados foram implementadas manualmente, sem bibliotecas de alto nível.
+# Projeto 7: Motor de Matching para Exchange de Criptomoedas
 
 ---
 
@@ -16,7 +11,7 @@
 
 | Nome | GitHub | Responsabilidade |
 |------|--------|-----------------|
-| Edurdo Clementino de Lima Almeida | @Redrolke | Script gerador de dados, arquivos de entrada e script de execução |
+| Edurdo Antônio Clementino de Lima Almeida | @Redrolke | Script gerador de dados, arquivos de entrada e script de execução |
 
 ---
 
@@ -41,13 +36,6 @@
 
 ---
 
-## Requisitos
-
-- **Python 3.8+** (sem dependências externas para execução)
-- `uuid`, `json`, `random`, `time` — apenas para geração de dados (stdlib)
-
----
-
 ## Execução
 
 ### 1. Gerar os arquivos de teste
@@ -69,7 +57,7 @@ python src/main.py --input data/input_avancado.json --output data/output_avancad
 python src/main.py --input data/input_estresse.json --output data/output_estresse.json --verbose
 ```
 
-### Ou via script padrão
+### Script padrão
 
 ```bash
 chmod +x run.sh
@@ -78,7 +66,7 @@ chmod +x run.sh
 
 ---
 
-## Estruturas de Dados (Implementadas do Zero)
+## Estruturas de Dados
 
 | Estrutura    | Classe       | Requisito | Complexidade          |
 |:------------|:------------|:---------|:----------------------|
@@ -87,7 +75,7 @@ chmod +x run.sh
 | **BST**      | `BST`       | RF02     | Search/Insert O(log N)  |
 | **HashTable**| `HashTable` | RF03     | Get/Set O(1) amortizado |
 
-### Por que essas escolhas?
+### Por que foram escolhidas essas estruturas?
 
 - **MaxHeap para compras:** O comprador com maior preço tem prioridade → acesso
   em O(1) ao topo, remoção em O(log N).
@@ -99,7 +87,7 @@ chmod +x run.sh
 
 ## Algoritmo de Matching
 
-O motor implementa **Price-Time Priority** (padrão de exchanges reais):
+O motor implementa **Price-Time Priority**:
 
 ```
 Para cada ordem de COMPRA com preço P:
@@ -167,11 +155,3 @@ Complexidade total para N ordens: O(N log N)
 
 ---
 
-## Documentação Técnica
-
-Veja [`docs/complexidade.md`](docs/complexidade.md) para análise completa de:
-- Justificativa de cada estrutura
-- Invariantes das heaps
-- Política de rehash da HashTable
-- Análise de memória
-- Decisões de projeto
