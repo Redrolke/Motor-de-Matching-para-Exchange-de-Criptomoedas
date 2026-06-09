@@ -7,15 +7,21 @@
 
 ---
 
-## 👥 Membros da Equipe
+## Membros da Equipe
 
 | Nome | GitHub | Responsabilidade |
 |------|--------|-----------------|
-| *(Adicionar)* | @usuario | *(Adicionar)* |
+| Nelson de Araújo Lessa Neto | @Nettzy | implementou do zero MaxHeap, MinHeap, AVL Tree e HashTable ,implementou o motor de matching, implementou a leitura/escrita via CLI, documentou a análise de complexidade documentou o projeto completo |
+
+## Membros da Equipe
+
+| Nome | GitHub | Responsabilidade |
+|------|--------|-----------------|
+| Edurdo Clementino de Lima Almeida | @Redrolke | Script gerador de dados, arquivos de entrada e script de execução |
 
 ---
 
-## 📁 Estrutura do Repositório
+## Estrutura do Repositório
 
 ```
 /
@@ -36,14 +42,14 @@
 
 ---
 
-## ⚙️ Requisitos
+## Requisitos
 
 - **Python 3.8+** (sem dependências externas para execução)
 - `uuid`, `json`, `random`, `time` — apenas para geração de dados (stdlib)
 
 ---
 
-## 🚀 Execução
+## Execução
 
 ### 1. Gerar os arquivos de teste
 
@@ -73,7 +79,7 @@ chmod +x run.sh
 
 ---
 
-## 📐 Estruturas de Dados (Implementadas do Zero)
+## Estruturas de Dados (Implementadas do Zero)
 
 | Estrutura    | Classe       | Requisito | Complexidade          |
 |:------------|:------------|:---------|:----------------------|
@@ -92,7 +98,7 @@ chmod +x run.sh
 
 ---
 
-## 🔄 Algoritmo de Matching
+## Algoritmo de Matching
 
 O motor implementa **Price-Time Priority** (padrão de exchanges reais):
 
@@ -111,7 +117,7 @@ Complexidade total para N ordens: O(N log N)
 
 ---
 
-## 📊 Métricas do Teste de Estresse
+## Métricas do Teste de Estresse
 
 | Métrica              | Valor       |
 |---------------------|-------------|
@@ -122,7 +128,7 @@ Complexidade total para N ordens: O(N log N)
 
 ---
 
-## 📄 Formato de Entrada
+## Formato de Entrada
 
 ```json
 {
@@ -143,7 +149,7 @@ Complexidade total para N ordens: O(N log N)
 }
 ```
 
-## 📄 Formato de Saída
+## Formato de Saída
 
 ```json
 {
@@ -162,7 +168,7 @@ Complexidade total para N ordens: O(N log N)
 
 ---
 
-## 🔍 Documentação Técnica
+## Documentação Técnica
 
 Veja [`docs/complexidade.md`](docs/complexidade.md) para análise completa de:
 - Justificativa de cada estrutura
